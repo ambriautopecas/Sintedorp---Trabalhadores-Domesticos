@@ -1,0 +1,6 @@
+{
+  "name": "Sintedorp - Sindicato Doméstico",
+  "description": "Portal moderno e interativo do Sindicato dos Trabalhadores e Trabalhadoras Domésticas de Ribeirão Preto e Região (SINTEDORP). Informações de direitos, filiação, editais e calculadora trabalhista.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

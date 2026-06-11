@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  --color-brand-red: #d92d32;
+  --color-brand-red-hover: #b01b20;
+  --color-brand-orange: #f26c36;
+  --color-brand-beige: #faf7f2;
+  --color-brand-charcoal: #1c1c1a;
+  
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-beige);
+  color: var(--color-brand-charcoal);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Custom Scrollbar for modern touch */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f0ea;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c3bfaf;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9d9989;
+}
