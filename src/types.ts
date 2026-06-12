@@ -7,6 +7,7 @@ export interface Associado {
   dataCadastro: string;
   categoria?: string;
   status: 'Pendente' | 'Aprovado';
+  origem?: string;
 }
 
 export interface CityCovered {
