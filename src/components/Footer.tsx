@@ -157,8 +157,21 @@ export default function Footer() {
       </div>
 
       {/* Lower static credit signature */}
-      <div className="bg-brand-charcoal py-4 border-t border-white/5 px-4 sm:px-6 text-center text-xxs tracking-wider text-gray-500 uppercase">
-        <span>© SINDICATO DOS TRABALHADORES DOMÉSTICOS DE RIBEIRÃO PRETO E REGIÃO — 1994 - {currentYear}</span>
+      <div className="bg-brand-charcoal py-6 border-t border-white/5 px-4 sm:px-6 text-xxs tracking-wider text-gray-500 uppercase">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-3 text-center sm:text-left">
+          <span>© SINDICATO DOS TRABALHADORES DOMÉSTICOS DE RIBEIRÃO PRETO E REGIÃO — 1994 - {currentYear}</span>
+          <span className="normal-case font-medium text-gray-400">
+            Feito por{' '}
+            <a 
+              href="https://eficazbot.com.br/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-brand-orange hover:text-brand-red font-bold transition-all underline decoration-brand-orange/30 hover:decoration-brand-red"
+            >
+              EficazBot
+            </a>
+          </span>
+        </div>
       </div>
 
     </footer>

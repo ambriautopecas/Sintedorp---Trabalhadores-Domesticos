@@ -12,6 +12,7 @@ import AssociationForm from './components/AssociationForm';
 import AdminPanel from './components/AdminPanel';
 import Footer from './components/Footer';
 import ChatWidget from './components/ChatWidget';
+import LGPDConsent from './components/LGPDConsent';
 import { Associado } from './types';
 import { Sparkles, ArrowDown, LogIn, CheckCircle } from 'lucide-react';
 
@@ -94,6 +95,9 @@ export default function App() {
 
       {/* Floating Interactive AI Assistant (SinteBot) */}
       <ChatWidget />
+
+      {/* Floating LGPD Cookie Banner */}
+      <LGPDConsent />
     </div>
   );
 }
